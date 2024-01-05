@@ -1,3 +1,7 @@
+## Book Manager
+
+A Laravel-based project designed to efficiently manage and organize book-related information through a structured database system and an API for book lists.
+
 ## Installation
 
 (1) Installing dependencies
@@ -10,7 +14,7 @@
   npm install
 ```
 
-(2)Migration and seeding
+(2) Migration and seeding
 
 Configure your database in the .env file.otherwise copy .env.example .
 
@@ -20,7 +24,7 @@ Then, run the following command -
  php artisan migrate —seed
 ```
 
-(3)Run the project
+(3) Run the project
 
 ```bash
   php artisan serve
